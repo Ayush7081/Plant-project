@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ayush7081/Plant-project/static/css/main.4b482b94.css",
+    "main.js": "/Ayush7081/Plant-project/static/js/main.61e553b4.js",
+    "static/js/453.84e598c7.chunk.js": "/Ayush7081/Plant-project/static/js/453.84e598c7.chunk.js",
+    "static/media/web-dev.jpg": "/Ayush7081/Plant-project/static/media/web-dev.ffada8fa019880237304.jpg",
+    "static/media/branding.jpg": "/Ayush7081/Plant-project/static/media/branding.9c7b1055a9cfc8dfee86.jpg",
+    "static/media/marketing.jpg": "/Ayush7081/Plant-project/static/media/marketing.2061a2dc4fbd733c2169.jpg",
+    "static/media/seo.jpg": "/Ayush7081/Plant-project/static/media/seo.8a58e5a3b0f495585d6a.jpg",
+    "static/media/green-architecture-3.jpg": "/Ayush7081/Plant-project/static/media/green-architecture-3.b8e357db8ad64af65f27.jpg",
+    "static/media/solar-plant3.jpeg": "/Ayush7081/Plant-project/static/media/solar-plant3.d54c19e6a52229c62e42.jpeg",
+    "static/media/save-nature.jpg": "/Ayush7081/Plant-project/static/media/save-nature.bf22b44d3175006c5022.jpg",
+    "static/media/solar.jpg": "/Ayush7081/Plant-project/static/media/solar.a35df14c70ed5faf3fa4.jpg",
+    "static/media/solar-plant2.avif": "/Ayush7081/Plant-project/static/media/solar-plant2.0eca96b08a5745b53da1.avif",
+    "static/media/solar-plant.avif": "/Ayush7081/Plant-project/static/media/solar-plant.057f3c917772e0725bfb.avif",
+    "index.html": "/Ayush7081/Plant-project/index.html",
+    "main.4b482b94.css.map": "/Ayush7081/Plant-project/static/css/main.4b482b94.css.map",
+    "main.61e553b4.js.map": "/Ayush7081/Plant-project/static/js/main.61e553b4.js.map",
+    "453.84e598c7.chunk.js.map": "/Ayush7081/Plant-project/static/js/453.84e598c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b482b94.css",
+    "static/js/main.61e553b4.js"
+  ]
+}
