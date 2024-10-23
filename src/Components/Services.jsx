@@ -1,101 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-
+import Cards from './Cards';
 export const Services = () => {
     return (
-        // export const Services = () => {
-            //     const items =[
-            //         {
-            //             imgSrc:'',
-            //             title: 'Service 1',
-            //             description: 'This is a description of service 1.',
-            //             link: '#',
-            
-            //         },
-            //         {
-            //             imgSrc:'',
-            //             title: 'Service 1',
-            //             description: 'This is a description of service 1.',
-            //             link: '#',
-                        
-            //         },
-            //         {
-            //             imgSrc:'',
-            //             title: 'Service 1',
-            //             description: 'This is a description of service 1.',
-            //             link: '#',
-                        
-            //         },
-            //         {
-            //             imgSrc:'',
-            //             title: 'Service 1',
-            //             description: 'This is a description of service 1.',
-            //             link: '#',
-                        
-            //         },
-            //     ]
-            //     return (
-            //         <div>   
-            //         <div className="services w-auto h-screen m-6  ">
-            //             <div className="overflow-x-auto flex gap-2 ">
-            //                 {items.map((item,index)=>(
-            //                     <div key={index}
-            //                     className='min-w-[300px] bg-blue-300 flex flex-col p-4 items-center justify-between'>
-            //                         <img src={item.imgSrc}
-                                    
-            //                         alt={item.imgSrc} 
-            //                         className='w-full h-40 object-cover rounded-2xl
-            //                         '/>
-            //                         <h2 className='text-lg mt-4  font-bold'>{item.title}</h2>
-            //                         <p className='text-sm mt-2'>{item.description}</p>
-            //                         <button className='mt-4 bg-blue-100 text-black hover:text-blue-100 px-4 py-2 rounded-2xl'>learn {item.link} </button>
-            // </div>                ))}
-            
-            //             </div>
-            
-            //         </div>
+        
         <div>
             <div className="services ">
 
-                <div className='our-services text-center  text-3xl font-bold p-9 subpixel-antialiased ' id='card'>Our Servic<span className=' bg-sky-200'>es</span></div>
-
-                <div className="boxes flex justify-center ">
-
-                    <div className="card bg-[url('/src/web-dev.jpg')] max-w-md mx-auto  md:max-w-2xl md:h-auto hover:text-black bg-no-repeat bg-contain pt-48  border-2  m-5 rounded-full w-auto h-96 text-white" >
-
-                        <div className="card-body border-1 pt-5 pb-2 bg-green-600">
-                            <h4 className=' font-semibold text-xl p-2  '>1- Website Devlopement</h4>
-                            <p className="card-text text-xm px-2">We create modern, responsive, and user-friendly websites tailored to your business needs, ensuring seamless experiences for your customers across all devices..</p>
-                        </div>
-                    </div>
-
-                    <div className="card bg-[url('/src/seo.jpg')] max-w-md mx-auto  md:max-w-2xl md:h-auto hover:text-black  bg-no-repeat  bg-contain pt-48  border-2   m-5 rounded-full  w-auto h-96 text-white " >
-
-                        <div className="card-body  border-1 pt-5 pb-2 bg-green-600">
-                            <h4 className=' font-semibold text-xl p-2 '>2- SEO <span className='text-xs'>(Search Engine Optimization)</span></h4>
-                            <p className="card-text text-xm px-2">Our expert SEO strategies improve your website's  visibility on  search engines, driving organic traffic and helping you rank higher for  relevant keywords..</p>
-                        </div>
-                        </div>
-
-                    <div className="card bg-[url('/src/marketing.jpg')] max-w-md mx-auto md:max-w-2xl md:h-auto hover:text-black bg-no-repeat bg-contain pt-48  border-2   m-5 rounded-full w-auto h-96 text-white " >
-
-                        <div className="card-body border-1 pt-5 pb-2 bg-green-600">
-                            <h4 className=' font-semibold text-xl p-2 '>3- Digital Marketing</h4>
-                            <p className="card-text text-xm px-2"> From social media marketing to paid campaigns, we help you connect with your audience through targeted digital strategies that deliver measurable results.</p>
-                        </div>
-                    </div>
-
-                    <div className="card bg-[url('/src/branding.jpg')] max-w-md mx-auto  md:max-w-2xl md:h-auto hover:text-black  bg-no-repeat bg-contain pt-48  border-2 m-5 rounded-full w-auto h-96 text-white " >
-
-                        <div className="card-body  border-1 pt-5 pb-2 bg-green-600">
-                            <h4 className=' font-semibold text-xl p-2 '>4- Branding</h4>
-                            <p  className="card-text text-xm px-2  ">We craft distinctive brand identities that resonate with your audience, building trust and loyalty to make your business stand out in the marketplace.</p>
-                        </div>
-                    </div>
-
-
-                </div>
-
+    <Cards/>
 
             </div>
 

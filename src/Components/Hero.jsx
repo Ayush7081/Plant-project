@@ -17,7 +17,7 @@ export const Hero = () => {
         <h1 className="text-4xl md:text-6xl text-white font-bold"><span className='text-green-500'>Create your own business </span>&
 Green Building Consultancy</h1>
         <p className="text-white text-lg md:text-2xl mt-2  ">Creating responsive designs with React and Tailwind CSS.</p>
-        <a href="#services" className="mt-6 inline-block px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300">
+        <a className="mt-6 inline-block px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 hover:duration-150 transition duration-150 ease-in-out">
         Work with us
         </a>
     </div> 

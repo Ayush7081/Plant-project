@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ayush7081.github.io/Plant-project", 
+  "homepage": "https://github.com/Ayush7081/Plant-project",
   "name": "plant",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "react-simple-typewriter": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
+
   "scripts": {
     "start": "react-scripts start",
     "predeploy":"npm run build",
