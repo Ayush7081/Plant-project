@@ -2,10 +2,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
+  Form,
   RouterProvider,
 } from "react-router-dom";
 
@@ -13,7 +15,7 @@ import About from './pages/about';
 import Blog from './pages/blog';
 import Offerings  from './pages/offerings';
 import Contact from './pages/contact';
-
+import Formpage from './Components/Formpage'
 const router = createBrowserRouter([
   {
     path: "",
@@ -35,6 +37,11 @@ const router = createBrowserRouter([
     path: "/Contact",
     element: <Contact/>,
   }, 
+  {
+    path: "/Formpage",
+    element: <Formpage/>,
+  }, 
+ 
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-900 p-4  ">
+    <nav className="bg-blue-600 p-4  ">
       <div className="container mx-auto flex justify-between  items-center">
         {/* Logo */}
         <div className="text-white text-2xl font-bold animate-bounce w-6 h-6 ">
@@ -15,12 +15,12 @@ const Navbar = () => {
         </div>
 
         {/* Menu Items */}
-        <div className="hidden md:flex space-x-16  text-white  list-none "> 
-          <li  className="hover:text-gray-300 " ><Link to={"/"}>Home</Link></li>
-           <li  className="hover:text-gray-300" ><Link to={"/blog"}>Blogs</Link></li>
-           <li  className="hover:text-gray-300"  ><Link to={"/about"}>About</Link></li>
-           <li  className="hover:text-gray-300"  ><Link to={"/Offerings"}>Offerings</Link></li>
-           <li  className="hover:text-gray-300"  ><Link to={"/contact"}>Contact</Link></li>
+        <div className="hidden md:flex space-x-16  text-white  list-none  "> 
+          <li  className="hover:text-gray-300 hover:scale-125" ><Link to={"/"}>Home</Link></li>
+           <li  className="hover:text-gray-300 hover:scale-125" ><Link to={"/blog"}>Blogs</Link></li>
+           <li  className="hover:text-gray-300 hover:scale-125"  ><Link to={"/about"}>About</Link></li>
+           <li  className="hover:text-gray-300 hover:scale-125"  ><Link to={"/Offerings"}>Offerings</Link></li>
+           <li  className="hover:text-gray-300 hover:scale-125"  ><Link to={"/contact"}>Contact</Link></li>
         </div>
        
         {/* Hamburger Menu (Mobile) */}
